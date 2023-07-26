@@ -165,7 +165,8 @@ while True:
     f.write(f"{ExtraLiability}, ")
     f.write(f"{Glass}, ")
     f.write(f"{LoanerCar}, ")
-    f.write(f"{PayMethod}\n")
+    f.write(f"{PayMethod}, ")
+    f.write(f"{TotalInsPrem}\n")
     f.close()
 
     print("Policy information processed and saved.")
